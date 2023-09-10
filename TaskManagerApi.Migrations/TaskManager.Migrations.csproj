@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManagerApi.Data\TaskManager.Data.csproj" />
+    <ProjectReference Include="..\TaskManagerApi.Models\TaskManager.Models.csproj" />
+  </ItemGroup>
+
+</Project>
